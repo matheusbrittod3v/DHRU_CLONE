@@ -27,3 +27,10 @@ _ide_helper_models.php
 /storage/framework/views/*
 /storage/logs/*
 !/storage/logs/.gitignore
+
+# Local credentials and generated dependencies
+.env.*
+!.env.example
+node_modules/
+vendor/
+*.log
